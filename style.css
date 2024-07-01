@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+}
+
+.photo {
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 500px; /* Set desired width */
+    height: 600px; /* Maintain aspect ratio */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text {
+    display: inline-block;
+    background-color: rgb(36, 49, 73);
+    color: rgb(180, 196, 142);
+    padding: 20px;
+}
+
+.info {
+    background-color: rgb(94, 27, 38);
+    width: 100%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(94, 27, 38);
+    display: inline-block;
+    color: white;
+    padding-left: 0rem;
+    font-size: larger;
+    text-align: left;
+    width:13rem;
+    margin-left: 0px;
+}
+
+.navbar:hover {
+    color: aquamarine;
+}
+
+.home, .about_me, .education, .skills, .contact {
+    display: inline-block;
+    background-color: rgb(94, 27, 38);
+    height: 3rem;
+    width: 8rem;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    line-height: 3rem;
+    margin: 0 0.5rem;
+}
+
+.home:hover, .about_me:hover, .education:hover, .skills:hover, .contact:hover {
+    color: aquamarine;
+    border: 1px solid white;
+}
+
+.abbb {
+    background-color: rgb(219, 190, 195);
+}
+
+#about {
+    background-color: rgb(33, 33, 61);
+}
+
+.ab {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#em1 {
+    background-color: rgb(56, 78, 71);
+    color: white;
+    padding: 20px;
+}
+
+.evv {
+    background-color: rgb(56, 78, 71);
+    color: white;
+    text-align: center;
+}
+
+.ee {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.schoolimg, .vit {
+    display: block;
+    margin: 20px auto;
+    width: 100%; /* Set desired width */
+    height: 1000; /* Maintain aspect ratio */
+}
+
+.skill {
+    background-color: rgb(142, 136, 134);
+    color: rgb(8, 54, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    text-align: left;
+}
+
+.skill ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill li {
+    margin: 10px 0;
+}
+
+.logo {
+    margin-left: 100px;
+    border-radius: 5%;
+    width: 100px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo:hover {
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.contacts {
+    background-color: black;
+    color: rgb(54, 125, 188);
+    padding: 20px;
+    text-align: left;
+}
+
+.contacts a {
+    color: rgb(137, 39, 59);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+.link{
+    color:red;
+}
