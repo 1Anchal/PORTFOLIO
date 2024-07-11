@@ -14,8 +14,9 @@ div {
     margin-left: 350px;
     margin-right: auto;
     border: 2px solid black;
-    width: 500px; /* Set desired width */
-    height: 600px; /* Maintain aspect ratio */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 h1 {
@@ -29,6 +30,7 @@ h1 {
     background-color: rgb(36, 49, 73);
     color: rgb(180, 196, 142);
     padding: 20px;
+    width: 100%
 }
 
 .info {
@@ -41,11 +43,12 @@ h1 {
     background-color: rgb(94, 27, 38);
     display: inline-block;
     color: white;
-    padding-left: 0rem;
+    padding: 1rem;
+   
     font-size: larger;
     text-align: left;
-    width:13rem;
-    margin-left: 0px;
+   
+    width: 100%
 }
 
 .navbar:hover {
@@ -53,7 +56,8 @@ h1 {
 }
 
 .home, .about_me, .education, .skills, .contact {
-    display: inline-block;
+    display: block;
+    margin: 0.5rem 0;
     background-color: rgb(94, 27, 38);
     height: 3rem;
     width: 8rem;
@@ -105,8 +109,9 @@ h1 {
 .schoolimg, .vit {
     display: block;
     margin: 20px auto;
-    width: 100%; /* Set desired width */
-    height: 1000; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
 }
 
 .skill {
@@ -156,4 +161,25 @@ h1 {
 }
 .link{
     color:red;
+}
+@media (max-width: 768px) {
+    .photo {
+        margin: 0 auto;
+        width: 90%; 
+        height: auto; 
+    }
+    
+    .navbar {
+        text-align: center;
+    }
+    
+    .home, .about_me, .education, .skills, .contact {
+        width: 100%; 
+        margin: 0.5rem 0; 
+    }
+
+    .logo {
+        margin: 0 auto;
+        width: 80px; 
+    }
 }
